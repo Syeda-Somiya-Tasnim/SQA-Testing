@@ -1,0 +1,12 @@
+Command::
+
+npm Install:
+npm install -g newman 
+
+
+Sample Command:
+
+newman run Tasnim_Batch14.postman_collection.json -e Tasnim_Btach-14.postman_environment.json
+
+Report generate
+newman run Tasnim_Batch14.postman_collection.json -e Tasnim_Btach-14.postman_environment.json -r cli,htmlextra
